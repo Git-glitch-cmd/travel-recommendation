@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom - Home</title>
+  <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+  <!-- Navigation bar: Home, About Us, Contact Us, search input, Search button, Clear button -->
+  <nav class="navbar">
+    <div class="logo">TravelBloom</div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="about_us.html">About Us</a>
+      <a href="contact_us.html">Contact Us</a>
+    </div>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+      <button id="searchBtn">Search</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+  </nav>
+
+  <!-- Home page introduction -->
+  <header class="hero">
+    <h1>Explore the World with TravelBloom</h1>
+    <p>Discover breathtaking beaches, ancient temples, and vibrant countries. Search your dream destination and let TravelBloom guide your next adventure through rich cultures and unforgettable landscapes.</p>
+    <a href="#results" class="book-btn">Book Now</a>
+  </header>
+
+  <!-- Search results yahan dikhenge -->
+  <div id="results"></div>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
